@@ -9,7 +9,7 @@ const Form = () => {
   // Set your form ID in the query below:
   const data = useStaticQuery(graphql`
     query formQuery {
-      wpGravityFormsForm(formId: { eq: 1 }) {
+      wpGfForm(databaseId: { eq: 1 }) {
         ...GravityFormFields
       }
     }

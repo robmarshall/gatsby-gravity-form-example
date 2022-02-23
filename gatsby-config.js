@@ -1,3 +1,5 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -43,8 +45,5 @@ module.exports = {
         url: "YOUR_WORDPRESS_GRAPHQL_URL",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
