@@ -6,7 +6,7 @@
   "author": "Robert Marshall",
   "dependencies": {
     "gatsby": "^4.8.0",
-    "gatsby-plugin-gravity-forms": "^2.0.0",
+    "gatsby-plugin-gravity-forms": "^2.0.1",
     "gatsby-plugin-image": "^2.8.0",
     "gatsby-plugin-manifest": "^4.8.0",
     "gatsby-plugin-offline": "^5.8.0",
