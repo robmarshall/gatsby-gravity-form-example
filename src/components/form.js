@@ -7,8 +7,12 @@ import "./form.css"
 
 const Form = () => {
   // Set your form ID in the query below:
+  // Include the wpGfSettings object if you are using reCaptcha.
   const data = useStaticQuery(graphql`
     query formQuery {
+      wp {
+        ...GravityFormSettings
+      }
       wpGfForm(databaseId: { eq: 1 }) {
         ...GravityFormFields
       }

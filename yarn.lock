@@ -6210,10 +6210,10 @@ gatsby-plugin-catch-links@^4.17.0:
     "@babel/runtime" "^7.15.4"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-gravity-forms@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gravity-forms/-/gatsby-plugin-gravity-forms-3.0.2.tgz#b1d889e04f5956259e6dff7f6ea6d1cf970e8493"
-  integrity sha512-05TkBB/rJeq7CVsexj/X8SVIHgeuVPlnk2Qi0HdFZtVBvLi7p6Cy8/Rz43Mldl6JmGgQDtkdL+F4JtIFyg8P8g==
+gatsby-plugin-gravity-forms@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gravity-forms/-/gatsby-plugin-gravity-forms-3.1.0.tgz#f5d32be7acf703ba666f458723585b0ce4aca7bc"
+  integrity sha512-A775cZTB9fNYZigOx8r2imbXqtftD40cYHQZoI23oX88TKLcRd8FQZTFcQ+NB+uC10y0LP6EX4jzD/j1GNfFvw==
   dependencies:
     "@apollo/client" "^3.6.9"
     classnames "^2.3.1"
